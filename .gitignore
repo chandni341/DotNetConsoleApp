@@ -1,0 +1,103 @@
+﻿# .NET Core / .NET Framework
+
+## Ignore Visual Studio temporary files, build results, and other generated files
+.vs/
+bin/
+obj/
+
+## Ignore NuGet package restore files
+**/*.nuget.props
+**/*.nuget.targets
+
+## Ignore user-specific files and settings
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+## Ignore build and release directories
+_ReSharper*/
+_ReSharper.*/
+build/
+Release/
+x64/
+x86/
+AnyCPU/
+Debug/
+Release/
+publish/
+publish-*/
+*.Publish.xml
+
+## Ignore test results
+TestResults/
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+## Ignore .NET Core SDK and tools
+DOTNET_SDK_*/
+dotnet-*.tar.gz
+dotnet_installation.log
+
+## Ignore .NET Core local tools
+.local/
+.local.history/
+
+## Ignore generated documentation files
+docs/
+
+## Ignore Unity generated files
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Bb]uild-[Tt]argets/
+Proj/[Bb]uild/
+[Bb]in/
+[Nn]ode[Gg]enerated/
+[Ss]hader[Gg]enerated/
+[Bb]uild[Bb]atch/
+[Bb]uild[Ll]og.*.txt
+
+# Visual Studio Code specific
+.vscode/
+
+# Rider specific
+.idea/
+*.sln.iml
+
+# User-specific files
+*.sln.DotSettings.user
+*.DotSettings.user
+*.DotSettings.user.lock.json
+
+# Ignore npm package manager files
+node_modules/
+npm-debug.log*
+package-lock.json
+yarn.lock
+
+# Ignore TypeScript compilation output
+*.js
+*.js.map
+*.d.ts
+
+# Ignore package files
+*.nupkg
+*.pup
+*.pup.lock.json
+
+# Ignore cache and log files
+*.log
+*.log.*
+
+# Ignore Resharper files
+_resharper.*
+*.resharper
+
+# Ignore Windows folder attributes
+Desktop.ini
+thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
